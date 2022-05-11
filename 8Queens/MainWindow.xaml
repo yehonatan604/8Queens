@@ -1,0 +1,335 @@
+﻿<Window x:Class="_8Queens.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="505" Width="820">
+    <Grid>
+        <StackPanel x:Name="mainStack">
+            <UniformGrid x:Name="BoardGrid" Columns="8" Margin="15" Rows="8" Height="434" Width="570">
+                <Button x:Name="btn1_1" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic1_1" Source="/ChessQueen.png" Visibility="Hidden"/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn1_2" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic1_2" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn1_3" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic1_3" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn1_4" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic1_4" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn1_5" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic1_5" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn1_6" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic1_6" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn1_7" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic1_7" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn1_8" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic1_8" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn2_1" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic2_1" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn2_2" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic2_2" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn2_3" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic2_3" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn2_4" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic2_4" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn2_5" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic2_5" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn2_6" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic2_6" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn2_7" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic2_7" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn2_8" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic2_8" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn3_1" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic3_1" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn3_2" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic3_2" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn3_3" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic3_3" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn3_4" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic3_4" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn3_5" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic3_5" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn3_6" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic3_6" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn3_7" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic3_7" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn3_8" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic3_8" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn4_1" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic4_1" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn4_2" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic4_2" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn4_3" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic4_3" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn4_4" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic4_4" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn4_5" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic4_5" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn4_6" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic4_6" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn4_7" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic4_7" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn4_8" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic4_8" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn5_1" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic5_1" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn5_2" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic5_2" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn5_3" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic5_3" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn5_4" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic5_4" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn5_5" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic5_5" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn5_6" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic5_6" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn5_7" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic5_7" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn5_8" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic5_8" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn6_1" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic6_1" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn6_2" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic6_2" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn6_3" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic6_3" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn6_4" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic6_4" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn6_5" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic6_5" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn6_6" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic6_6" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn6_7" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic6_7" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn6_8" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic6_8" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn7_1" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic7_1" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn7_2" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic7_2" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn7_3" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic7_3" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn7_4" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic7_4" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn7_5" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic7_5" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn7_6" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic7_6" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn7_7" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic7_7" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn7_8" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic7_8" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn8_1" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic8_1" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn8_2" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic8_2" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn8_3" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic8_3" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn8_4" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic8_4" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn8_5" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic8_5" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn8_6" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic8_6" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn8_7" Background="OldLace">
+                    <StackPanel>
+                        <Image x:Name="pic8_7" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btn8_8" Background="black">
+                    <StackPanel>
+                        <Image x:Name="pic8_8" Source="/ChessQueen.png" Visibility="Hidden" />
+                    </StackPanel>
+                </Button>
+            </UniformGrid>
+        </StackPanel>
+        <Button Content="Automatic" HorizontalAlignment="Left" Margin="40,164,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+    </Grid>
+</Window>
